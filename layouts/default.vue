@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style>
+
 html {
   font-family:
     'Playfair Display',

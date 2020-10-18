@@ -30,7 +30,11 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'
-      }
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap'
+      },
     ]
   },
   /*
@@ -60,7 +64,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-webfontloader',
   ],
+
+  webfontloader: {
+    google: {
+      families: ['Libre Barcode 39:400'] //Loads Lato font with weights 400 and 700
+    }
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
