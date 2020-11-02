@@ -12,9 +12,9 @@
             <span v-if="index != Object.keys(technologies).length - 1 ">/</span>
           </h3>
         </div>
-        <button class="cursor-pointer mt-12 mx-16 transition duration-500 ease-in-out transform bg-transparent font-title hover:bg-purple-900 text-purple-700 font-thin hover:text-white py-2 px-4 border border-purple-900 hover:border-transparent">
+        <a :href="website" class="cursor-pointer mt-12 mx-16 transition duration-500 ease-in-out transform bg-transparent font-title hover:bg-purple-900 text-purple-700 font-thin hover:text-white py-2 px-4 border border-purple-900 hover:border-transparent">
           LEARN MORE
-        </button>
+        </a>
       </figcaption>
     </figure>
   </div>
@@ -28,6 +28,10 @@ export default {
       default: 'Project Name'
     },
     img: {
+      type: String,
+      default: ''
+    },
+    website: {
       type: String,
       default: ''
     },

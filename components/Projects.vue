@@ -17,6 +17,7 @@
           :img="project.img"
           :is-active="project.isActive"
           :technologies="project.technologies"
+          :website="project.website"
         />
       </div>
     </div>
@@ -26,6 +27,8 @@
           :name="project.name"
           :img="project.img"
           :is-active="project.isActive"
+          :technologies="project.technologies"
+          :website="project.website"
         />
       </div>
     </div>
