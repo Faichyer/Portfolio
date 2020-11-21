@@ -1,7 +1,7 @@
 <template>
   <div>
     <Intro />
-    <Projects class="mt-32"/>
+    <Projects class="md:mt-32"/>
     <Footer />
   </div>
 </template>

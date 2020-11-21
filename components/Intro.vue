@@ -2,10 +2,10 @@
   <div class="container flex flex-col mt-32">
     <div class="loader">
       <div class="ringOne ring">
-        <img src="~assets/images/ring.png" alt="" class="w-full">
+        <img src="~assets/images/ring.png" alt="">
       </div>
       <div class="ringTwo ring">
-        <img src="~assets/images/ring.png" alt="" class="w-full">
+        <img src="~assets/images/ring.png" alt="">
       </div>
     </div>
     <div>
@@ -28,7 +28,7 @@
     <div class="text-white font-normal text-2xl">
       SAP MII Consultant at Movilitas
     </div>
-    <div class="flex flex-row mt-12 text-white text-xl leading-8">
+    <div class="flex flex-row mt-12 text-white text-lg leading-8">
       <span class="click-see-profile cursor-pointer hover:text-purple-700 transition duration-500">See my profile</span><span class="ml-1"> or scroll down to see my work</span>
     </div>
   </div>

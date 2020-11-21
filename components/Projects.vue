@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto container flex flex-col">
-    <div class="flex flex-row xl:space-x-24 lg:space-x-16 md:space-x-8 space-x-4 mb-2">
+    <div class="flex flex-row xl:space-x-24 lg:space-x-16 md:space-x-8 space-x-0 mb-2 max-w-full">
       <div v-for="(category) in getCategories" :key="category.id" class="xl:text-3xl lg:text-3xl md:text-2xl text-xl py-2 px-4" :class="{ activecat: category.active }" @click="putActive(category.id)">
         <div v-if="category.active" class="text-white cursor-pointer">
           {{category.name}}
