@@ -2,10 +2,10 @@
   <div class="container flex flex-col mt-32">
     <div class="loader">
       <div class="ringOne ring">
-        <img src="~assets/images/ring.png" alt="">
+        <img src="~assets/images/ring.png" alt="" class="w-full">
       </div>
       <div class="ringTwo ring">
-        <img src="~assets/images/ring.png" alt="">
+        <img src="~assets/images/ring.png" alt="" class="w-full">
       </div>
     </div>
     <div>
